@@ -1,0 +1,30 @@
+# --- Python Bytecode and Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Crucial to ignore!) ---
+.venv/
+venv/
+ENV/
+env/
+dist/
+build/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- IDE and Code Editor Settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Computer Vision & Media Outputs (Optional safety check) ---
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
